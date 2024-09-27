@@ -11,4 +11,28 @@ Designed to generate nuanced translations, considering context and tone.
 Follow the instructions below to set up and run this project on your local machine.
 
 1. Clone the Repository
-   Clone the Repository to your local machine using the following command:
+   `git clone https://github.com/shane-jeon/hiUmma.git`
+2. Navigate to Project Directory
+   `cd hiUmma`
+3. Create Virtual Enviornment (Optional but Recommended)
+   `python -m venv venv`
+   Activate virtual environment:
+
+- On Windows:
+  `.\venv\Scripts\activate`
+- On macOS/Linux:
+  `source venv/bin/activate`
+
+4. Install Required Dependencies
+   `pip install -r requirements.txt`
+
+5. Set up Environment Variables
+   Create a `.env` file in the root directory of the project, and add your OpenAI API Key:
+   `OPENAI_API_KEY=your_openai_api_key`
+   Replace your_openai_api_key with your actual API key, which you can get from [OpenAI](https://platform.openai.com/docs/quickstart).
+
+6. Run the Script
+   `python hiUmma.py`
+
+7. Deactivate the Virtual Environment
+   `deactivate`
