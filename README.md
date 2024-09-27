@@ -34,5 +34,8 @@ Follow the instructions below to set up and run this project on your local machi
 6. Run the Script
    `python hiUmma.py`
 
-7. Deactivate the Virtual Environment
+7. Quitting the Script:
+   `CTRL + C`
+
+8. Deactivate the Virtual Environment
    `deactivate`
